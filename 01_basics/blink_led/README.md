@@ -1,15 +1,28 @@
 # Blink LED
 
 ## Objective
-Understand basic digital output using Arduino.
+Understand basic digital output and timing in embedded systems.
 
 ## Components
-- Arduino board
-- LED
-- Resistor
+- Arduino Uno / Nano
+- LED (any color)
+- 220Ω resistor (current limiting)
 
-## Explanation
-This code turns an LED on and off every second using pin 13.
+## Wiring
+- LED anode (+) → 220Ω resistor → Pin 13
+- LED cathode (-) → GND
 
-## Future Improvements
-- Use millis() instead of delay()
+## Key Concepts
+- `pinMode()` — Set pin as OUTPUT
+- `digitalWrite()` — HIGH (5V) / LOW (0V)
+- `millis()` — Non-blocking timing (best practice)
+
+## Common Issues & Fixes
+- LED not lighting → Check polarity and resistor
+- Code not uploading → Select correct board/port in IDE
+- Flickering → Use proper current limiting
+
+## Extensions
+- Multiple LEDs with different patterns
+- Button-controlled blinking
+- Fade effect using PWM (`analogWrite`)
