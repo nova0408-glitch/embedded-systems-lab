@@ -1,45 +1,47 @@
 # Embedded Systems Lab
 
-A structured Arduino & embedded systems learning repository progressing from fundamentals to advanced IoT and automation systems.
+Structured Arduino & Embedded Systems projects from fundamentals to advanced IoT and automation.
 
 ## 🎯 Purpose
-This repository is designed as a hands-on engineering lab covering:
-- Digital I/O fundamentals
-- Sensor integration
-- Signal processing (PWM)
-- Embedded communication (UART, I2C)
-- IoT systems (WiFi, MQTT)
-- Automation systems
+Hands-on lab covering:
+- Digital I/O
+- Sensors & Actuators
+- Signal Processing (PWM)
+- Communication Protocols (UART, I2C, SPI)
+- IoT & Connectivity (ESP32, WiFi, MQTT)
+- Full Automation Systems
 
-## 📁 Structure
+## 📁 Current Structure
 
-01_basics/
-- blink_led → Digital output basics
-- button_input → Digital input handling
-- serial_output → UART communication
+### 01_basics/
+- **blink_led** → Digital output
+- (Planned) button_input, serial_output, etc.
 
-02_intermediate/
-- lcd_display → I2C LCD interfacing
-- ultrasonic_sensor → Distance measurement
-- pwm_control → Motor/LED control via PWM
+### 02_intermediate/
+*(Coming soon)*
+- lcd_display, ultrasonic_sensor, pwm_control
 
-03_advanced/
-- wifi_esp32 → WiFi connectivity
-- mqtt_iot → IoT messaging system
-- automation_system → Full embedded system project
+### 03_advanced/
+*(Coming soon)*
+- wifi_esp32, mqtt_iot, automation_system
 
-docs/
-- notes.md → Theory, concepts, and engineering notes
+### docs/
+- Theory notes, pinouts, troubleshooting
 
-## ⚙️ Tools Used
-- Arduino IDE / PlatformIO
-- ESP32 / Arduino Uno
-- C/C++ Embedded Programming
+## 🛠 Tools & Hardware
+- **Boards**: Arduino Uno, ESP32 DevKit
+- **IDE**: Arduino IDE 2.x or **PlatformIO** (recommended)
+- **Languages**: C/C++
+- **Libraries**: Wire, LiquidCrystal_I2C, PubSubClient, etc.
 
 ## 🚀 Learning Path
-Start from 01_basics → 02_intermediate → 03_advanced
+1. Master **01_basics**
+2. Move to sensors & feedback
+3. Advance to communication & IoT
 
-Do not skip levels. Engineering mastery is sequential.
+**Pro Tip**: Always use `millis()` instead of `delay()` for non-blocking code.
 
-## 📌 Philosophy
-Build small. Understand deeply. Scale intelligently.
+## How to Use
+1. Clone the repo
+2. Open `.ino` files in Arduino IDE
+3. Follow per-project READMEs + wiring diagrams
