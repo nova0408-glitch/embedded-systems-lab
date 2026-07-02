@@ -3,7 +3,6 @@
 Structured Arduino & Embedded Systems projects from fundamentals to advanced IoT and automation.
 
 ## 🎯 Purpose
-Hands-on lab covering:
 - Digital I/O
 - Sensors & Actuators
 - Signal Processing (PWM)
